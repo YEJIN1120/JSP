@@ -1,0 +1,28 @@
+package filter;
+
+import java.io.IOException;
+import java.util.logging.LogRecord;
+
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.FilterConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+
+public class BasicFilter implements Filter {
+	FilterConfig config;
+	
+	init
+	
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		String filterInitParam = config
+	}
+
+	@Override
+	public boolean isLoggable(LogRecord record) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

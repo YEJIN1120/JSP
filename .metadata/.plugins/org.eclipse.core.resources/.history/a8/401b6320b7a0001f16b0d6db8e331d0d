@@ -1,0 +1,17 @@
+package filter;
+
+import java.util.logging.Filter;
+
+import jakarta.servlet.FilterConfig;
+import jakarta.servlet.ServletException;
+
+public class BasicFilter implements Filter {
+	FilterConfig config;
+	
+	@Override
+	public void init(FilterConfig filterConfig) throws ServletException {
+		config = filterConfig;
+		String
+	}
+
+}

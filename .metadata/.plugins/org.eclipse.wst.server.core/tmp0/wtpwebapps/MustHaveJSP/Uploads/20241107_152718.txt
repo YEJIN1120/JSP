@@ -1,0 +1,29 @@
+초단기예보
+https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst?serviceKey=%2FHnA2iw3sOxo5sImlcxW2vV8HWPZbXqir1y0wWiIKNYscpxNK8FMTaMHUsATsEZVpohX5G4sa3tYmAb7M2Ntsw%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&base_date=20241015&base_time=0630&nx=55&ny=127
+
+          {
+            "baseDate": "20241015",
+            "baseTime": "0630",
+            "category": "LGT",
+            "fcstDate": "20241015",
+            "fcstTime": "0700",
+            "fcstValue": "0",
+            "nx": 55,
+            "ny": 127
+          },
+
+
+
+단기예보
+https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=%2FHnA2iw3sOxo5sImlcxW2vV8HWPZbXqir1y0wWiIKNYscpxNK8FMTaMHUsATsEZVpohX5G4sa3tYmAb7M2Ntsw%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&base_date=20241015&base_time=0500&nx=55&ny=127
+
+          {
+            "baseDate": "20241015",
+            "baseTime": "0500",
+            "category": "TMP",
+            "fcstDate": "20241015",
+            "fcstTime": "0600",
+            "fcstValue": "17",
+            "nx": 55,
+            "ny": 127
+          },
